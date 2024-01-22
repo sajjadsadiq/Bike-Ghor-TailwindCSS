@@ -174,7 +174,9 @@
           <div id="slide4" class="carousel-item relative w-full">
             <div class="hero-slider">
               <div class="hero min-h-screen bg-base-200">
-                <div class="hero-content flex-col lg:flex-row-reverse lg:lg:px-10">
+                <div
+                  class="hero-content flex-col lg:flex-row-reverse lg:lg:px-10"
+                >
                   <div class="md:w-5/6 w-3/4">
                     <img
                       src="./assets/images/slider/bike4.png"
@@ -210,7 +212,99 @@
       </div>
     </header>
     <main>
-      <section class="fetured-bikes"></section>
+      <section class="fetured-bikes py-28">
+        <div class="featured-bikes-content text-center">
+          <h2 class="md:text-5xl text-2xl font-semibold">
+            Fetured Bikes In This Year
+          </h2>
+          <p class="text-[#E76F51] mt-2 font-semibold text-xl">
+            Best bike collection
+          </p>
+        </div>
+        <div
+          class="fetured-bikes-wrapper grid md:grid-cols-3 gap-8 items-center justify-center mt-7"
+        >
+          <img src="./assets/images/others/extrabike.png" alt="" />
+          <img
+            class="ml-12"
+            src="./assets/images/others/feature-bike.png"
+            alt=""
+          />
+          <img src="./assets/images/others/extrabike.png" alt="" />
+        </div>
+      </section>
+      <section class="latest-bike py-28">
+        <h2 class="text-5xl font-bold text-center">Latest Bike</h2>
+        <!-- Lates Bikes -->
+        <div class="bikes-wrapper grid lg:grid-cols-3 md:grid-cols-2 gap-5 items-center justify-center mt-6">
+          <!-- Bike One -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-6 pt-10">
+              <img
+                src="./assets/images/others/latest1.png"
+                alt="Shoes"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p class="py-2">
+                ILorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions mt-4">
+                <button class="btn btn btn-error text-white lg:px-6 text-xl">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Bike One -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-6 pt-10">
+              <img
+                src="./assets/images/others/latest2.png"
+                alt="Shoes"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Motorcycles & Scooters</h2>
+              <p class="py-2">
+                ILorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions mt-4">
+                <button class="btn btn btn-error text-white lg:px-6 text-xl">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Bike Three -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-6 pt-10">
+              <img
+                src="./assets/images/others/latest3.png"
+                alt="Shoes"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">2021 Honda CBR500R</h2>
+              <p class="py-2">
+                ILorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions mt-4">
+                <button class="btn btn btn-error text-white lg:px-6 text-xl">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
